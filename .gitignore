@@ -1,0 +1,42 @@
+# Runtime logs and local state
+*.log
+logs/
+*.pid
+*.lock
+README.txt
+
+# Local configuration and secrets
+config.local.bat
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# IDEs and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build output (the release JAR below is intentionally versioned)
+target/
+build/
+dist/
+out/
+*.jar
+!app/driving-subject1.jar

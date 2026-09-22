@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-09-10T23:55:31",
+  "applied_to_database": true,
+  "question_count": 2309,
+  "category_distribution": {
+    "道路交通安全法律法规": 243,
+    "驾驶证与机动车管理": 382,
+    "紧急情况与事故处理": 203,
+    "其他与综合知识": 29,
+    "安全文明驾驶常识": 169,
+    "道路通行规则": 633,
+    "交通信号与标志标线": 434,
+    "车辆结构与驾驶操作": 216
+  },
+  "classification_review_count": 717,
+  "exact_duplicate_group_count": 42,
+  "semantic_pair_count": 838,
+  "similarity_level_counts": {
+    "完全重复": 47,
+    "高度疑似重复": 136,
+    "语义相似待复核": 655
+  },
+  "answer_issue_count": 8,
+  "high_similarity_answer_conflicts": 8,
+  "model": "shibing624/text2vec-base-chinese"
+}
